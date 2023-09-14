@@ -1,0 +1,53 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 0px;
+  background-color: #012a4a;
+}
+
+.t-row {
+  display: flex;
+}
+
+.t-board {
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #012a4a;
+}
+
+.t-cell {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  color: #012a4a;
+}
+
+.t-cell-0 {
+  background-color: #4683b7;
+}
+
+.t-cell-1 {
+  background-color: orange;
+  border-bottom: 1px solid orangered;
+  border-right: 1px solid orangeredf;
+  border-top: 1px solid orangered;
+  border-left: 1px solid orangered;
+}
+
+.t-score-label {
+  font-weight: bold;
+  font-size: 15px;
+  margin-right: 20px;
+  margin-top: 10px;
+  color: #4683b7;
+}
+
+.t-parent {
+  display: flex;
+}
+
+element.style {
+  width: 44px;
+  left: 0px;
+}
